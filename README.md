@@ -24,6 +24,14 @@ The controller loops through every step, writes the relevant register(s), and
 waits 2.5 seconds between commands so the crane has time to complete each move
 before the next command is sent.
 
+## Simulation
+
+The controller drives a simulated manufacturing cell — two part sources, two
+process stations, and a sink — connected over Modbus TCP. The panel on the
+right shows the live register values: crane position (`setX`/`setY`), vacuum
+state, source/process sensors, and process status.
+
+![Crane simulation](simulation.png)
 ---
 
 ## Files
