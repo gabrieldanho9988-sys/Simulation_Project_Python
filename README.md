@@ -108,8 +108,7 @@ it. The full action file in the repo extends this to three drop-off locations.
 ## Context
 
 This project was an early exercise in industrial automation and Modbus TCP
-communication, completed as part of the Multi-Agent Systems course at
-University West. It later evolved into the full
+communication, completed as part of the Python for Automation course at University West. It later evolved into the full
 [MUA600-Multi-Agent-Manufacturing](https://github.com/gabrieldanho9988-sys/MUA600-Multi-Agent-Manufacturing)
 project, where the crane is controlled by a decentralized CMAS multi-agent
 system with LLM order intake instead of a static action list.
